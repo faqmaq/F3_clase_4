@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Padre setFrase={setFrase} count={count} setCount={setCount} />   
-      <Hijo frase={frase} count={count} />   
+      <Hijo frase={frase} count={count} setCount={setCount} />   
     </div>    
   )
 }

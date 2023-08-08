@@ -11,16 +11,15 @@ function Padre({setFrase, count, setCount}){
          
             <h1>HOLA</h1>
             <div className="div">
-                <button onClick={() => click("FACUNDO",count)}>
-                    ¿QUIEN SOS?
+                <button onClick={() => click("MESA 5",count)}>
+                    ¿QUE MESA SOS?
                 </button>
-                <button onClick={() => click("39", count)}>
-                    ¿CUANTOS AÑOS TENES?
+                <button onClick={() => click("CLASE 5 - STATES", count)}>
+                    ¿EN QUE CLASE ESTAS?
                 </button>
                 <button onClick={() => click("FRONTEND 3", count)}>
                     ¿QUE ESTAS CURSANDO?
-                </button>
-             
+                </button>             
             </div>
             
         </div>
